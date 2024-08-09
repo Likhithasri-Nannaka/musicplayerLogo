@@ -1,0 +1,49 @@
+ .App {
+  text-align: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.tab-container button {
+  margin: 0 20px;
+}
+
+.search-input {
+  margin: 20px;
+  padding: 10px;
+  width: 80%;
+  max-width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.song-list-container {
+  width: 500px; 
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.music-player-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+} 

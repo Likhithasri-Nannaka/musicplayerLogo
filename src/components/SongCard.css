@@ -1,0 +1,43 @@
+.SongCard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.SongCard:hover {
+  transform: scale(1.05);
+}
+
+.cover-image {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.song-info {
+  flex: 1;
+}
+
+.song-name {
+  margin: 0;
+  font-size: 18px;
+  color: #ddd;
+}
+
+.song-artist {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.song-duration {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+
